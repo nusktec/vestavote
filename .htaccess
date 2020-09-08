@@ -1,0 +1,8 @@
+#remove php file extension-e.g.
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+#url routing
+RewriteRule ^/?api/(.*)? control.php?cmd=$1&type=$2 [QSA,L]

@@ -1,0 +1,21 @@
+{
+  "ToCountry": "US",
+  "ToState": "DC",
+  "SmsMessageSid": "SM0425b17d74dd0465d8c5ea64e293e9ca",
+  "NumMedia": "0",
+  "ToCity": "WASHINGTON",
+  "FromZip": "",
+  "SmsSid": "SM0425b17d74dd0465d8c5ea64e293e9ca",
+  "FromState": "",
+  "SmsStatus": "received",
+  "FromCity": "",
+  "Body": "RRX\/REG\/AMEH FRIDAY",
+  "FromCountry": "NG",
+  "To": "+12029913088",
+  "ToZip": "20005",
+  "NumSegments": "1",
+  "MessageSid": "SM0425b17d74dd0465d8c5ea64e293e9ca",
+  "AccountSid": "AC639dde5cfe9df4463827b10156493190",
+  "From": "+2348164242320",
+  "ApiVersion": "2010-04-01"
+}

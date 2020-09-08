@@ -1,0 +1,84 @@
+{
+  "event": "charge.success",
+  "data": {
+    "id": 804430335,
+    "domain": "test",
+    "status": "success",
+    "reference": "374470558",
+    "amount": 390000,
+    "message": null,
+    "gateway_response": "Successful",
+    "paid_at": "2020-09-08T21:02:34.000Z",
+    "created_at": "2020-09-08T21:02:27.000Z",
+    "channel": "card",
+    "currency": "NGN",
+    "ip_address": "199.188.238.191",
+    "metadata": {
+      "custom_fields": [
+        {
+          "pin": "RDX25841599597935",
+          "extra": {
+            "xname": "AMEH FRIDAY",
+            "xemail": "nusktecsoft@gmail.com",
+            "xphone": "+2348164242320",
+            "xextra": "Form with T-Shirt (2700)",
+            "xamount": "2700"
+          }
+        }
+      ],
+      "referrer": "https://apply.reedax.com/"
+    },
+    "log": {
+      "start_time": 1599598948,
+      "time_spent": 6,
+      "attempts": 1,
+      "errors": 0,
+      "success": false,
+      "mobile": false,
+      "input": [],
+      "history": [
+        {
+          "type": "action",
+          "message": "Attempted to pay with card",
+          "time": 6
+        }
+      ]
+    },
+    "fees": 15850,
+    "fees_split": null,
+    "authorization": {
+      "authorization_code": "AUTH_x8x9bewgav",
+      "bin": "408408",
+      "last4": "4081",
+      "exp_month": "12",
+      "exp_year": "2020",
+      "channel": "card",
+      "card_type": "visa ",
+      "bank": "TEST BANK",
+      "country_code": "NG",
+      "brand": "visa",
+      "reusable": true,
+      "signature": "SIG_fXKrLAXZBeJQ5rSWrE4h",
+      "account_name": null,
+      "receiver_bank_account_number": null,
+      "receiver_bank": null
+    },
+    "customer": {
+      "id": 29399169,
+      "first_name": "Ameh",
+      "last_name": "Onuche",
+      "email": "nusktecsoft@gmail.com",
+      "customer_code": "CUS_49ydondbz0k6b4y",
+      "phone": "",
+      "metadata": null,
+      "risk_action": "default",
+      "international_format_phone": null
+    },
+    "plan": {},
+    "subaccount": {},
+    "split": {},
+    "order_id": null,
+    "paidAt": "2020-09-08T21:02:34.000Z",
+    "requested_amount": 390000
+  }
+}
