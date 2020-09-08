@@ -16,17 +16,13 @@ include "inc/models.php";
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Meta -->
-    <meta name="description" content="Responsive Bootstrap4 Dashboard Template">
-    <meta name="author" content="ParkerThemes">
+    <meta name="description" content="Reedax.IO Vesta Vote Script">
+    <meta name="author" content="Revelation A.F">
     <link rel="shortcut icon" href="img/fav.png"/>
 
     <!-- Title -->
     <title><?php echo func::getTitle() ?> | VestaVote</title>
 
-
-    <!-- *************
-        ************ Common Css Files *************
-    ************ -->
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Icomoon Font Icons css -->
@@ -38,12 +34,12 @@ include "inc/models.php";
     <link rel="stylesheet" href="vendor/daterange/daterange.css"/>
 
     <!--Tables css-->
-    <link rel="stylesheet" href="vendor/daterange/daterange.css" />
+    <link rel="stylesheet" href="vendor/daterange/daterange.css"/>
 
     <!-- Data Tables -->
-    <link rel="stylesheet" href="vendor/datatables/dataTables.bs4.css" />
-    <link rel="stylesheet" href="vendor/datatables/dataTables.bs4-custom.css" />
-    <link href="vendor/datatables/buttons.bs.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/datatables/dataTables.bs4.css"/>
+    <link rel="stylesheet" href="vendor/datatables/dataTables.bs4-custom.css"/>
+    <link href="vendor/datatables/buttons.bs.css" rel="stylesheet"/>
 </head>
 <script>
     var _tmp_ssk = "<?php echo SERVER_SSK; ?>";
